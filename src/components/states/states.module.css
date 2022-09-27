@@ -1,0 +1,60 @@
+.states {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: rgb(219, 218, 218);
+}
+
+.state {
+  font-size: 0.8rem;
+  padding: 1rem 1rem;
+  width: 14rem !important;
+  margin: 0.5rem 0;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.focus {
+  background-color: rgb(253, 40, 86);
+  color: rgb(37, 37, 37);
+}
+
+.short,
+.long {
+  background-color: rgb(8, 236, 8);
+  color: rgb(37, 37, 37);
+}
+
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .states {
+    flex-direction: row;
+  }
+  .mobile {
+    display: none;
+  }
+
+  .states {
+    width: auto;
+    padding: 0 0.5rem;
+  }
+
+  .state {
+    width: 10rem !important;
+  }
+
+  .desktop {
+    width: 100%;
+    display: flex;
+  }
+}

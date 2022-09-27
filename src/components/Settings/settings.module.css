@@ -1,0 +1,55 @@
+.settings {
+  background-color: transparent;
+  border: none;
+  color: rgb(219, 218, 218);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modalForm {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.modalColumn {
+  display: block;
+  padding: 0.5rem 0;
+  color: rgb(219, 218, 218);
+}
+
+.modalColumn input[type="number"] {
+  width: 100%;
+  padding: 0.5rem 0.2rem;
+  margin-top: 0.1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(219, 218, 218);
+  color: white;
+  -moz-appearance: textfield;
+}
+
+.modalColumn input::-webkit-outer-spin-button,
+.modalColumn input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.modalColumn input:focus {
+  outline: none;
+}
+
+#settingsBtn {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.8rem 0;
+  border-radius: 1rem;
+  border: none;
+  font-size: 0.9rem;
+  color: white;
+  background-color: rgb(207, 24, 63);
+  cursor: pointer;
+}
+
+#settingsBtn:focus {
+  outline: none;
+}

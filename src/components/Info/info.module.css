@@ -1,0 +1,26 @@
+.info {
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoColumn p {
+  color: rgb(219, 218, 218);
+}
+
+.infoColumn span {
+  padding: 0.3rem 0.6rem;
+  border-bottom: 1px solid rgb(253, 40, 86);
+  font-size: 1.1rem;
+  font-weight: bold;
+}

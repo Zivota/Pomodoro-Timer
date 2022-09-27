@@ -1,3 +1,11 @@
+# Pomodoro timer
+
+App developed with React and CSS modules. Straight forward pomodoro timer with nice simple phone design and options to set time for focus and time for short and long break, intervals before long break, total amount of reps as well as laps. I could've used some state management tool here but initially I inteded to make this app simpler with only two or three states but it turned out to be a little bit more complex than that at the end. Anyways, you can check out how app looks and works here:
+
+## https://reactpomodorotimer.netlify.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
